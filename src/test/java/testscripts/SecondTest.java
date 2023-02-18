@@ -17,7 +17,7 @@ public class SecondTest  extends BaseClass {
 		  SkillraryDemo.SelectCategory(web,1);
 		  
 		  soft.assertEquals(testing.getPageHearder(),"Testing");
-		  web.dragAndDropElement(testing.getSeleniumImage(), testing.getCcartArea());
+		  web.dragAndDropElement(testing.getSeleniumImage(), testing.getCartArea());
 		  web.scrollToElement(testing.getFacebookIcon());
 		  testing.clickFacebookIcon();
 		  soft.assertAll();
